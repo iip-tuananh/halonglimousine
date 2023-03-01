@@ -314,7 +314,7 @@
                   </div>
                   --}}
                   <h2 class="section-title">About US !!</h2>
-                  <p>{!!$pageContent->content!!}</p>
+                  <p>{!!$pageContent->description!!}</p>
                </div>
             </div>
          </div>
