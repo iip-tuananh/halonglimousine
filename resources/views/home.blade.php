@@ -49,7 +49,7 @@
                <span ><i class="far fa-clock"></i></span>
                </span>
                <span class="counter-desc">
-               Xehanoisapa.com luôn sẵn sàng tư vấn và giải đáp thắc mắc của Khách hàng 24/7
+                  Always ready to advise and answer customers' questions 24/7
                </span>
             </div>
             <div class="counter-item">
@@ -57,7 +57,7 @@
                <span ><i aria-hidden="true" class="far fa-money-bill-alt"></i></span>
                </span>
                <span class="counter-desc">
-               Xehanoisapa.com Cam kết giá luôn tốt nhất hoặc bằng giá niêm yết trên thị trường.
+                  The price is always the best or equal to the listed price on the market.
                </span>
             </div>
             <div class="counter-item pd-cus">
@@ -65,8 +65,8 @@
                <span ><i aria-hidden="true" class="far fa-handshake"></i></i></span>
                </span>
                <span class="counter-desc">
-               CAM KẾT BOOKING
-               Cam kết chịu trách nhiệm với quý khách ngay sau khi xác nhận booking.
+                  BOOKING COMMITMENT
+                  Commitment to be responsible to you immediately after confirming the booking.
                </span>
             </div>
             <div class="counter-item pd-cus">
@@ -74,8 +74,8 @@
                <span><i aria-hidden="true" class="fas fa-bus-alt"></i></span>
                </span>
                <span class="counter-desc">
-               CAM KẾT DỊCH VỤ
-               Luôn hướng đến giá trị tối ưu mà quý khách hàng mong muốn nhận được
+                  SERVICE COMMITMENT
+                  Always aim for the optimal value that customers want to receive
                </span>
             </div>
          </div>

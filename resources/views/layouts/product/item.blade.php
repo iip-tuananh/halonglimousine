@@ -5,7 +5,7 @@
     <figure class="package-image" style="background-image: url({{ $img[0] }});"></figure>
     <div class="package-content">
         <h3>
-            <a href="package-detail.html">
+            <a href="{{route('detailProduct',['cate'=>$pro->cate_slug,'slug'=>$pro->slug])}}">
                 {{ languageName($pro->name) }}
             </a>
         </h3>

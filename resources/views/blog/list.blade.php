@@ -39,7 +39,7 @@ Tin tức nổi bật và mới nhất
                            <div class="cat-meta">
                               <a href="blog-archive.html">{{$item->created_at->format('d/m/Y')}}</a>
                            </div>
-                           <h3><a href="blog-single.html">{{languageName($item->title)}}</a></h3>
+                           <h3><a href="{{route('detailBlog',['slug'=>$item->slug])}}">{{languageName($item->title)}}</a></h3>
                            <p class="limit-text-3">{{languageName($item->description)  }}</p>
                            <div class="post-footer d-flex justify-content-between align-items-center">
                               <div class="post-btn">
