@@ -182,7 +182,6 @@
          </div>
       </div>
    </div>
- 
    <section class="contact-inner-page">
       <div class="faq-page-section">
          <div class="faq-page-container">
@@ -360,7 +359,163 @@
    </style>
 
    <!-- ***Home counter html end here*** -->
-
+   <section class="contact-inner-page">
+      <div class="faq-page-section">
+      <div class="faq-page-container bg-light-grey">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-8 offset-lg-2 text-sm-center">
+                  <div class="section-heading">
+                     <h5 class="sub-title">
+                        Our Utility
+                     </h5>
+                     <h2 class="section-title">  Our Utility</h2>
+                     <p>Service quality assurance: Service providers are committed to providing customers with the best experience and meeting all customer needs.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-3">
+                  <div class="faq-content-wrap">
+                     <div id="accordion-tab-two" class="accordion-content" role="tablist">
+                        <div id="accordion-E" class="card tab-pane" role="tabpanel" aria-labelledby="accordion-E">
+                           <div class="card-header" role="tab" id="qus-E">
+                              <h5 class="mb-0">
+                                 <a data-bs-toggle="collapse" href="#collapse-five" aria-expanded="true" aria-controls="collapse-five">
+                                 <i class="fa-solid fa-couch"></i> &nbsp;   Heather Seats
+                                 </a>
+                              </h5>
+                           </div>
+                           <div id="collapse-five" class="collapse " data-bs-parent="#accordion-tab-two" role="tabpanel" aria-labelledby="qus-E">
+                              <div class="card-body">
+                                 All seats are covered with high-quality leather, the seats are improved with flexible folding mode to help customers reduce fatigue when traveling long distances.
+                              </div>
+                           </div>
+                        </div>
+                        <div id="accordion-F" class="card tab-pane" role="tabpanel" aria-labelledby="accordion-F">
+                           <div class="card-header" role="tab" id="qus-F">
+                              <h5 class="mb-0">
+                                 <a class="collapsed" data-bs-toggle="collapse" href="#collapse-six" aria-expanded="false" aria-controls="collapse-six">
+                                 <i class="fa-solid fa-wifi"></i>  High speed wifi
+                                 </a>
+                              </h5>
+                           </div>
+                           <div id="collapse-six" class="collapse" data-bs-parent="#accordion-tab-two" role="tabpanel" aria-labelledby="qus-F">
+                              <div class="card-body">
+                                 Provide high-speed wifi, comfortable internet access
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3">
+                  <div class="faq-content-wrap">
+                     <div id="accordion-tab-three" class="accordion-content" role="tablist">
+                        <div id="accordion-II" class="card tab-pane " role="tabpanel" aria-labelledby="accordion-II">
+                           <div class="card-header" role="tab" id="qus-II">
+                              <h5 class="mb-0">
+                                 <a data-bs-toggle="collapse" href="#collapse-ninet" aria-expanded="true" aria-controls="collapse-nine">
+                                 <i class="fa-brands fa-usb"></i> &nbsp;  Usb Charger 
+                                 </a>
+                              </h5>
+                           </div>
+                           <div id="collapse-ninet" class="collapse" data-bs-parent="#accordion-tab-three" role="tabpanel" aria-labelledby="qus-II">
+                              <div class="card-body">
+                                 Each seat position is equipped with a usb charger for phones and ipads
+                              </div>
+                           </div>
+                        </div>
+                        <div id="accordion-J" class="card tab-pane" role="tabpanel" aria-labelledby="accordion-J">
+                           <div class="card-header" role="tab" id="qus-J">
+                              <h5 class="mb-0">
+                                 <a class="collapsed" data-bs-toggle="collapse" href="#collapse-tent" aria-expanded="false" aria-controls="collapse-ten">
+                                 <i class="fa-regular fa-snowflake"></i> &nbsp; Air-conditioner
+                                 </a>
+                              </h5>
+                           </div>
+                           <div id="collapse-tent" class="collapse" data-bs-parent="#accordion-tab-three" role="tabpanel" aria-labelledby="qus-J">
+                              <div class="card-body">
+                                 The car's air-conditioning system is always checked and maintained for stable operation, making the air conditioning comfortable and pleasant.
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3">
+                  <div class="faq-content-wrap">
+                     <div id="accordion-tab-three" class="accordion-content" role="tablist">
+                        <div id="accordion-I" class="card tab-pane" role="tabpanel" aria-labelledby="accordion-I">
+                           <div class="card-header" role="tab" id="qus-I">
+                              <h5 class="mb-0">
+                                 <a data-bs-toggle="collapse" href="#collapse-nine" aria-expanded="true" aria-controls="collapse-nine">
+                                 <i class="fa-solid fa-person-booth"></i> &nbsp; Hpull curtain
+                                 </a>
+                              </h5>
+                           </div>
+                           <div id="collapse-nine" class="collapse" data-bs-parent="#accordion-tab-three" role="tabpanel" aria-labelledby="qus-I">
+                              <div class="card-body">
+                                 The car is designed and installed with a high-class curtain system to help prevent UV rays
+                              </div>
+                           </div>
+                        </div>
+                        <div id="accordion-J" class="card tab-pane" role="tabpanel" aria-labelledby="accordion-J">
+                           <div class="card-header" role="tab" id="qus-J">
+                              <h5 class="mb-0">
+                                 <a class="collapsed" data-bs-toggle="collapse" href="#collapse-ten" aria-expanded="false" aria-controls="collapse-ten">
+                                 <i class="fa-solid fa-door-open"></i> &nbsp;  Automatic door 
+                                 </a>
+                              </h5>
+                           </div>
+                           <div id="collapse-ten" class="collapse" data-bs-parent="#accordion-tab-three" role="tabpanel" aria-labelledby="qus-J">
+                              <div class="card-body">
+                                 Modern and safe automatic designed car doors
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3">
+                  <div class="faq-content-wrap">
+                     <div id="accordion-tab-three" class="accordion-content" role="tablist">
+                        <div id="accordion-K" class="card tab-pane" role="tabpanel" aria-labelledby="accordion-K">
+                           <div class="card-header" role="tab" id="qus-K">
+                              <h5 class="mb-0">
+                                 <a class="collapsed" data-bs-toggle="collapse" href="#collapse-eleven" aria-expanded="true" aria-controls="collapse-eleven">
+                                 <i class="fa-solid fa-bottle-water"></i> &nbsp; Essential Items
+                                 </a>
+                              </h5>
+                           </div>
+                           <div id="collapse-eleven" class="collapse" data-bs-parent="#accordion-tab-three" role="tabpanel" aria-labelledby="qus-K">
+                              <div class="card-body">
+                                 The car always provides all the necessary   Cold Towels, Thin Blankets, Drinking Water during the move
+                              </div>
+                           </div>
+                        </div>
+                        <div id="accordion-G" class="card tab-pane" role="tabpanel" aria-labelledby="accordion-G">
+                           <div class="card-header" role="tab" id="qus-G">
+                              <h5 class="mb-0">
+                                 <a class="collapsed" data-bs-toggle="collapse" href="#collapse-seven" aria-expanded="true" aria-controls="collapse-seven">
+                                 <i class="fa-solid fa-tv"></i> Tivi Led
+                                 </a>
+                              </h5>
+                           </div>
+                           <div id="collapse-seven" class="collapse" data-bs-parent="#accordion-tab-two" role="tabpanel" aria-labelledby="qus-G">
+                              <div class="card-body">
+                                 The car is installed with titi led to serve the entertainment needs of customers
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- ***faq section html start form here*** -->
+   </section>
    <!-- ***Home callback html end here*** -->
 </main>
 @endsection

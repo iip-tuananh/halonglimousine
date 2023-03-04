@@ -3057,7 +3057,7 @@ input[type=submit]:focus {
 >>> Home travel package section  
 ******************************/
 .home-package {
-  padding-bottom: 115px;
+  /* padding-bottom: 115px; */
 }
 .home-package .section-btn-wrap {
   padding-top: 10px;
@@ -4691,7 +4691,7 @@ input[type=submit]:focus {
   background-color: #f8f8f8;
 }
 .faq-page-container.bg-light-grey {
-  padding-top: 100px;
+  /* padding-top: 100px; */
 }
 .faq-page-container .section-head p {
   margin-bottom: 30px;
