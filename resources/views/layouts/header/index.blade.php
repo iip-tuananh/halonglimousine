@@ -107,7 +107,9 @@
                    </nav>
                </div>
                <div class="header-btn">
+                   @if(Route::currentRouteName('home') == 'home')
                    <a href="#bok" class="round-btn">Book Now</a>
+                   @endif
                </div>
            </div>
        </div>
