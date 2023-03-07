@@ -20,7 +20,7 @@ $img = json_decode($solution->images);
     <div class="page-title-wrap bg-overlay bg-overlay-dark-3">
        <div class="bg-section"><img src="{{url('frontend/images/13.jpg')}}" alt="Background" /></div>
        <div class="container">
-          <div class="row">
+          <div class="row"> 
              <div class="col-12 col-lg-6 offset-lg-3">
                 <div class="title text-center">
                    <h1 class="title-heading">{{($solution->name)}} </h1>
