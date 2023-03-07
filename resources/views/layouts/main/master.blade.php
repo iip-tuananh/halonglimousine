@@ -74,7 +74,7 @@
                      </div>
                      <div class=" col-md-6">
                         <label> Phone or Whastapps </label>
-                        <input type="number" name="phone" placeholder="Enter Number" required>
+                        <input type="text" name="phone" placeholder="Enter Number" required>
                      </div>
                      <br>
                      <div class="col-md-6">
@@ -86,6 +86,11 @@
                         <label>Note</label>
                         <i class="far fa-calendar"></i>
                         <input type="text" name="mess" required placeholder="Ghi chú">
+                     </div>
+                     <div class="col-md-6">
+                        <label>Date</label>
+                        <i class="far fa-calendar"></i>
+                        <input type="date" name="date" required placeholder="Ghi chú">
                      </div>
                      <br><br>
                      <div class="col-md-12 pd-20">
@@ -208,6 +213,8 @@
       <script src="{{asset('frontend/js/jquery.slicknav.js')}}"></script>
       <script src="{{asset('frontend/js/custom.min.js')}}"></script>
       <script src="{{asset('frontend/js/notify.min.js')}}"></script>
+      @yield('js')
+ 
       @if (session()->has('postcontactok'))
       <script>
          console.log(123);

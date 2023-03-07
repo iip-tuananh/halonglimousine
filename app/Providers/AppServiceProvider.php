@@ -20,6 +20,7 @@ use App\models\ServiceCate;
 use App\models\Promotion;
 use App\models\blog\BlogCategory;
 use App\models\Project;
+use Illuminate\Support\Carbon;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -54,6 +55,7 @@ class AppServiceProvider extends ServiceProvider
             $serviceCate = ServiceCate::where('status',1)->orderBy('id','DESC')->get();
             $setting = Setting::first();
             $lang = Language::get();
+            $date_now= Carbon::now();
             $pageContent = PageContent::where(['type'=>'ve-chung-toi','language'=>'vi','status'=> 1])->first();
             $categoryhome = Category::with([
                 'typeCate' => function ($query) {
@@ -83,7 +85,7 @@ class AppServiceProvider extends ServiceProvider
             $listblognew = Blog::where('status',1)->orderBy('id','DESC')->limit(5)->get();
             $helpCustomer = PageContent::where(['status'=>1,'language'=>'vi', 'type'=>'ho-tro-khanh-hang'])->get();
             $view->with([
-                'promotio' => $promotio,
+                'promotio'=> $promotio,
                 'setting' => $setting,
                 'pageContent' => $pageContent,
                 'lang' => $lang,
@@ -92,6 +94,7 @@ class AppServiceProvider extends ServiceProvider
                 'categoryhome'=> $categoryhome,
                 'cartcontent'=>$cartcontent,
                 'viewold'=>$viewold,
+                'date_now'=>$date_now,
                 'compare'=>$compare,
                 'blogCate'=>$blogCate,
                 'servicehome'=>$servicehome,

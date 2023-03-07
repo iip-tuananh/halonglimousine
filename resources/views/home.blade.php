@@ -12,6 +12,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 @endsection
 @section('script')
+<script src="{{asset('frontend/js/checkvalue.js')}}"></script>
 @endsection
 @section('content')
 <main id="content" class="site-main">
@@ -91,28 +92,40 @@
             @csrf
             <div class=" col-md-6">
                <label> Full Name </label>
-               <input type="text" name="name" placeholder="Enter Full Name" required>
+               <input id ="myInput" type="text" name="name" placeholder="Enter Full Name">
             </div>
+            
+
+     
+            
             <div class=" col-md-6">
                <label> Phone or Whastapps </label>
-               <input type="number" name="phone" placeholder="Enter Number" required>
+               <input type="text" name="phone" placeholder="Enter Number" required >
             </div>
             <br>
             <div class="col-md-6">
                <label> Email </label>
-               <i class="far fa-calendar"></i>
-               <input  type="email" name="email"   required placeholder="Enter Email">
+               <input  type="email" name="email"    placeholder="Enter Email" required>
             </div>
             <div class="col-md-6">
                <label> Select Tour</label>
-               <i class="far fa-calendar"></i>
-               <select name="mess" id="">
+  
+               <select name="mess" id="" >
                   @foreach ($categoryhome as $item)
                      <option value="{{languageName($item->name)}}">{{languageName($item->name)}}</option>
                   @endforeach
              
                </select>
             </div>
+        
+            <div class="col-md-12">
+               <br>
+               <label>Date</label>
+               <i class="far fa-calendar"></i>
+               <input id="start_date" type="date" name="date" required >
+           
+            </div>
+         
             <div class="col-md-12 pd-20">
                <input type="submit" name="travel-search" value="BOOK NOW">
             </div>
@@ -343,8 +356,11 @@
          </div>
          <div class="package-section">
             @foreach ($categoryhome as $cate)
+            <h3 class="h3-custom">{{languageName($cate->name)}}</h3>
+            <br>
+            <br>
             @foreach ($cate->product as $pro)
-                @include('layouts.product.item',['pro'=>$pro]);
+                @include('layouts.product.item',['pro'=>$pro])
             @endforeach
             @endforeach
             {{-- 
@@ -516,6 +532,7 @@
       </div>
       <!-- ***faq section html start form here*** -->
    </section>
-   <!-- ***Home callback html end here*** -->
+
+
 </main>
 @endsection

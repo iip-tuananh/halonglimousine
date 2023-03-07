@@ -121,6 +121,17 @@ align-items: center;
 .VIpgJd-ZVi9od-ORHb-OEVmcd{
   display: none !important;
 }
+.h3-custom{
+  background-color: #042842;
+  height: 60px;
+  border-radius: 12px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  box-shadow: #e2b029a1 0px 7px 24px, #e2b02900 0px 10px 56px, #e2b029 -1px 6px 0px 0px;
+  border: 1px solid #e2b029;
+}
 .ngonngu{
   font-size: 10px;
 }

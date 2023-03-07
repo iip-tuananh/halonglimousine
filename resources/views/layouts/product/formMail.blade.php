@@ -20,6 +20,11 @@
 </strong>:<i>{{$dataMail['email']}}</i>
 <br>
 <strong>
+    Ngày tháng:
+
+</strong>:<i>{{date("d-m-Y", strtotime($dataMail['date']))}}</i>
+<br>
+<strong>
     @if (isset($product))
     Ghi chú
     @else
