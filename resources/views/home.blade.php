@@ -122,7 +122,7 @@
                <br>
                <label>Date</label>
                <i class="far fa-calendar"></i>
-               <input id="start_date" type="date" name="date" required >
+               <input id="start_date" type="date" name="date" required>
            
             </div>
          
