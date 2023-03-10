@@ -96,9 +96,9 @@ padding: 21px 14px 0px !important;
 }
 @media only screen and (max-width: 1000px){
   .form-book{
-    overflow: auto ;
+    overflow: auto;
     position: relative;
-    height: auto;
+    height: 857px;
     width: 100%;
     margin-top: 10px;
     background-color: #4a4985;
