@@ -28,7 +28,7 @@
         </div>
     </div>
     <h6 class="price-list">
-        <span>{{number_format($product['price'])}}$</span>
+        <span>{{number_format($product['price'])}}đ</span>
         / per person
     </h6>
     </div>

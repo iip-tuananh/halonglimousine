@@ -32,7 +32,7 @@
         </div>
         @if ($pro->price > 0)
             <h6 class="price-list">
-                <span>{{ number_format($pro->price) }}$</span>
+                <span>{{ number_format($pro->price) }}đ</span>
                 / per person
             </h6>
             <a href="" class="outline-btn outline-btn-white book-click" data-id="{{ $pro->id }}"
