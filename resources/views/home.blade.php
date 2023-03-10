@@ -83,9 +83,9 @@
       </div>
    </div>
    {{-- form bôking --}}
-   <div class="home-trip-search primary-bg" id="bok">
+   <div class="home-trip-search primary-bg" id="bok" >
       <div class="container">
-         <h1 style="text-align: center; font-size:40px">Book your tickets now</h1>
+         <h1 style="text-align: center;">Book your tickets now</h1>
          <br>
          <br>
          <form method="POST" action="{{route('SentMail')}}" class="trip-search-inner d-flex row">

@@ -85,13 +85,26 @@ padding: 21px 14px 0px !important;
  background-color: #0000008c;
 }
 .form-book{
+  overflow: hidden;
  position: relative;
- height: 700px;
- width: 900px;
-margin-top: 10px;
+ height: auto;
+ width: 1165px;
+ margin-top: 10px;
  background-color: #4a4985;
  border-radius: 25px;
  z-index: 3000;
+}
+@media only screen and (max-width: 1000px){
+  .form-book{
+    overflow: auto ;
+    position: relative;
+    height: 700px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: #4a4985;
+    border-radius: 25px;
+    z-index: 3000;
+   }
 }
 .tieude{
  color: red;
@@ -132,6 +145,10 @@ align-items: center;
   box-shadow: #e2b029a1 0px 7px 24px, #e2b02900 0px 10px 56px, #e2b029 -1px 6px 0px 0px;
   border: 1px solid #e2b029;
 }
+.disabled-scroll{
+  overflow: hidden;
+}
+
 .ngonngu{
   font-size: 10px;
 }

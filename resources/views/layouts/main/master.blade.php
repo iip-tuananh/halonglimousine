@@ -49,12 +49,30 @@
       <link rel="stylesheet" type="text/css" href="{{asset('frontend/css/style.css')}}">
       <title>Traveler – Travel & Trip Business HTML5 Template</title>
    </head>
+   <style>
+      .form-book::-webkit-scrollbar {
+  /* Tùy chỉnh kích thước và màu của thanh cuộn */
+  width: 1px;
+  height: 10px;
+  background-color: #f5f5f500;
+}
+
+.form-book::-webkit-scrollbar-thumb {
+  /* Tùy chỉnh màu của thanh cuộn khi di chuyển */
+  background-color: #d3d3d300;
+}
+
+.form-book::-webkit-scrollbar-track {
+  /* Tùy chỉnh màu của vùng cuộn */
+  background-color: #f5f5f500;
+}
+   </style>
    <body class="home">
       <div class="model-book">
          <div class="layout-book"></div>
-         <div class="form-book">
+         <div class="form-book" >
             <i class="fa-solid fa-xmark" id="close-book" title="Close"></i>
-            <div class="home-trip-search primary-bg">
+            <div class="home-trip-search primary-bg" >
                <div class="container">
                   <h1 style="text-align: center">Book your tickets now</h1>
                   <form action="{{route('SentMail')}}" class="trip-search-inner d-flex row" method="POST">
@@ -255,15 +273,18 @@
              });
          
              $('.model-book').addClass('active');
+             $('body').addClass('disabled-scroll');
          });
          $('.layout-book').click(function (e) { 
              e.preventDefault();
              $('.model-book').removeClass('active');
+             $('body').removeClass('disabled-scroll');
              
          });
          $('#close-book').click(function (e) { 
              e.preventDefault();
              $('.model-book').removeClass('active');
+             $('body').removeClass('disabled-scroll');
              
          });
       </script>
