@@ -93,6 +93,13 @@
                         <input type="date" name="date" required placeholder="Ghi chú">
                      </div>
                      <br><br>
+                     <div class="col-md-6 col-xs-12">
+                        <br>
+                        <label>No of fax</label>
+         
+                        <input  type="text" name="nguoi" required placeholder="Enter no of fax">
+                    
+                     </div>
                      <div class="col-md-12 pd-20">
                         <input type="submit" name="travel-search" value="BOOK NOW">
                      </div>

@@ -25,6 +25,11 @@
 </strong>:<i>{{date("d-m-Y", strtotime($dataMail['date']))}}</i>
 <br>
 <strong>
+    Số người:
+
+</strong>:<i>{{$dataMail['nguoi']}}</i>
+<br>
+<strong>
     @if (isset($product))
     Ghi chú
     @else

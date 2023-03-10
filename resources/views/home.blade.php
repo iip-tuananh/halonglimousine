@@ -42,7 +42,7 @@
    </section>
    <!-- ***home banner html end here*** -->
    <!-- ***Home search field html start from here*** -->
-   <div class="home-counter icon-cus">
+   <div class="home-counter icon-cus"></div>
       <div class="container">
          <div class="counter-wrap">
             <div class="counter-item">
@@ -118,11 +118,18 @@
                </select>
             </div>
         
-            <div class="col-md-12">
+            <div class="col-md-6 col-xs-12">
                <br>
                <label>Date</label>
                <i class="far fa-calendar"></i>
                <input id="start_date" type="date" name="date" required>
+           
+            </div>
+            <div class="col-md-6 col-xs-12">
+               <br>
+               <label>No of fax</label>
+               <i class="far fa-calendar"></i>
+               <input  type="text" name="nguoi" required placeholder="Enter no of fax">
            
             </div>
          

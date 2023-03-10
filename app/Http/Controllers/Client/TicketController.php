@@ -30,7 +30,8 @@ class TicketController extends Controller
             'email' => $request->email,
             'phone' => $request->phone,
             'mess' => $request->mess,
-            'date' => $request->date
+            'date' => $request->date,
+            'nguoi'=>$request->nguoi
         ];
         \Mail::send('layouts.product.formMail',$data,function($message) use ($data){
             $message->to($data['dataMail']['mymail'])->from($data['dataMail']['email'],$data['dataMail']['name'])->subject('BOOKING TICKET '.date('d-m-Y',strtotime(now())));
