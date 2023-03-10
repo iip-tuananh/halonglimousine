@@ -363,12 +363,14 @@
          </div>
          <div class="package-section">
             @foreach ($categoryhome as $cate)
+            @if(count($cate->product)>0)
             <h3 class="h3-custom">{{languageName($cate->name)}}</h3>
             <br>
             <br>
             @foreach ($cate->product as $pro)
                 @include('layouts.product.item',['pro'=>$pro])
             @endforeach
+            @endif
             @endforeach
             {{-- 
             <div class="section-btn-wrap text-center">
