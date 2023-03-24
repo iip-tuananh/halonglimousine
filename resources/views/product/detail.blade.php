@@ -26,7 +26,7 @@ $img = json_decode($product->images);
       <div class="inner-baner-container" style="background-image: url({{asset('frontend/img/hinh-anh-vinh-ha-long-3.jpg')}})">
            <div class="container">
               <div class="inner-banner-content">
-                 <h1 class="page-title">Package Deatil</h1>
+                 {{-- <h1 class="page-title">Package Deatil</h1> --}}
               </div>
            </div>
         </div>
