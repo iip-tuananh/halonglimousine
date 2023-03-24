@@ -23,7 +23,7 @@
        </figure>
     </aside>
     <aside class="widget widget_latest_post widget-post-thumb">
-       <h3 class="widget-title">Recent Post</h3>
+       <h3 class="widget-title">Popular Short Tours</h3>
        <ul>
           @foreach ($listblognew as $blog)
           <li>

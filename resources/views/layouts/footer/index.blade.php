@@ -15,7 +15,7 @@
                    </div>
                    <div class="col-lg-3 col-sm-6">
                        <aside class="widget widget_latest_post widget-post-thumb">
-                           <h3 class="widget-title">RECENT POST</h3>
+                           <h3 class="widget-title">Popular Short Tours</h3>
                            <ul>
                             @foreach ($categoryhome as $item)
                                 <li>
