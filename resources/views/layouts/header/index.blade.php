@@ -9,7 +9,7 @@
                        <i aria-hidden="true" class="icon icon-phone-call2"></i>
                        <div class="header-contact-details d-none d-sm-block">
                            <span class="contact-label">For Further Inquires :</span>
-                           <h5 class="header-contact-no">{{$setting->phone1}}2</h5>
+                           <h5 class="header-contact-no">{{$setting->phone1}}</h5>
                        </div>
                    </a>
                </div>
