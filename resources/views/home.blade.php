@@ -50,7 +50,7 @@
         
                </span>
                <span class="counter-desc">
-                 <img src="{{asset('frontend/img/t1.jpg')}}" alt="" srcset="">
+                 <img src="{{asset('frontend/img/t1.jpg')}}" alt="" srcset="" style="width:100%">
                </span>
             </div>
             <div class="counter-item">
@@ -58,7 +58,7 @@
             
                </span>
                <span class="counter-desc" style="transform: translateY(-12px);">
-                  <img src="{{asset('frontend/img/t2.jpg')}}" alt="" srcset="">
+                  <img src="{{asset('frontend/img/t2.jpg')}}" alt="" srcset="" style="width:100%">
                </span>
             </div>
             <div class="counter-item">
@@ -66,7 +66,7 @@
            
                </span>
                <span class="counter-desc">
-                  <img src="{{asset('frontend/img/t3.jpg')}}" alt="" srcset="">
+                  <img src="{{asset('frontend/img/t3.jpg')}}" alt="" srcset="" style="width:100%">
                </span>
             </div>
             <div class="counter-item " style="transform: translateY(-12px);">
@@ -74,7 +74,7 @@
           
                </span>
                <span class="counter-desc">
-                  <img src="{{asset('frontend/img/t4.jpg')}}" alt="" srcset="">
+                  <img src="{{asset('frontend/img/t4.jpg')}}" alt="" srcset="" style="width:100%">
                </span>
             </div>
          </div>
