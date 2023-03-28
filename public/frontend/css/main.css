@@ -157,6 +157,9 @@ align-items: center;
     display: block;
     font-size: 11px;
   }
+  .andes{
+    display: none;
+  }
 }
 .ngonngu{
   margin-bottom: 10px;

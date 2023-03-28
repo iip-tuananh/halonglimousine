@@ -29,7 +29,7 @@ Danh sách {{$title}}
    <div class="archive-section blog-archive">
       <div class="container">
          <div class="row">
-            <div class="col-lg-3 secondary">
+            <div class="col-lg-3 secondary andes">
                @include('layouts.blog.rightbar')
              </div>
             <div class="col-lg-9 primary right-sidebar">
