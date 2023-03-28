@@ -6,7 +6,7 @@
            <div class="top-header-inner">
                <div class="header-contact text-left">
                    <a href="telto:01977259912">
-                       <span><i aria-hidden="true" class="icon icon-phone-call2"></i><i class="hidden-xs"> Mobile/Whatsapp</i></span>
+                       <span><i aria-hidden="true" class="icon icon-phone-call2"></i><div class="hidden-xs"> Mobile/Whatsapp</div></span>
                        <div class="header-contact-details d-none d-sm-block">
                            <span class="contact-label">For Further Inquires :</span>
                            <h5 class="header-contact-no">{{$setting->phone1}}</h5>
