@@ -6,7 +6,7 @@
            <div class="top-header-inner">
                <div class="header-contact text-left">
                    <a href="telto:01977259912">
-                       <i aria-hidden="true" class="icon icon-phone-call2"></i>
+                       <i aria-hidden="true" class="icon icon-phone-call2"></i>Mobile/Whatsapp
                        <div class="header-contact-details d-none d-sm-block">
                            <span class="contact-label">For Further Inquires :</span>
                            <h5 class="header-contact-no">{{$setting->phone1}}</h5>
@@ -34,7 +34,7 @@
                              <img src="{{asset('frontend/img/flag-en.png')}}" alt="" loading="lazy">
                           </div>
                           <div>
-                             <span style="color: white" class="ngonngu">VN</span>
+                             <span style="color: white" class="ngonngu">VNE</span>
                           </div>
                        </a>
                        <a href="javascript:;" class="flag_link text-center" rel="" title="Tiếng Anh" data-lang="en">
@@ -42,7 +42,7 @@
                              <img src="{{asset('frontend/img/flag-en (1).png')}}" alt="" loading="lazy">
                           </div>
                           <div>
-                             <span style="color: white" class="ngonngu">EN</span>
+                             <span style="color: white" class="ngonngu">ENG</span>
                           </div>
                        </a>
                     </div>
