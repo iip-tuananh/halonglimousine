@@ -1906,7 +1906,7 @@ input[type=submit]:focus {
     margin-left: 5px;
   }
   .offcanvas-menu a {
-    font-size: 22px;
+    font-size: 14px;
   }
 }
 
@@ -1937,7 +1937,8 @@ input[type=submit]:focus {
 }
 @media screen and (max-width: 575px) {
   .site-logo img {
-    max-width: 90px;
+    max-width: 100px;
+    height: 100%;
   }
 }
 

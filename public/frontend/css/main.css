@@ -159,6 +159,8 @@ align-items: center;
   }
 }
 .ngonngu{
+  margin-bottom: 10px;
+  /* transform: translateX(10px); */
   font-size: 10px;
 }
 .swiper-slide img {
