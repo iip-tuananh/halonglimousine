@@ -50,7 +50,7 @@
                <span ><i class="far fa-clock"></i></span>
                </span>
                <span class="counter-desc">
-                  Always ready to advise and answer customers' questions 24/7
+                 <img src="{{asset('frontend/img/t1.jpg')}}" alt="" srcset="">
                </span>
             </div>
             <div class="counter-item">
@@ -58,7 +58,7 @@
                <span ><i aria-hidden="true" class="far fa-money-bill-alt"></i></span>
                </span>
                <span class="counter-desc">
-                  The price is always the best or equal to the listed price on the market.
+                  <img src="{{asset('frontend/img/t2.jpg')}}" alt="" srcset="">
                </span>
             </div>
             <div class="counter-item pd-cus">
@@ -66,8 +66,7 @@
                <span ><i aria-hidden="true" class="far fa-handshake"></i></i></span>
                </span>
                <span class="counter-desc">
-                  BOOKING COMMITMENT
-                  Commitment to be responsible to you immediately after confirming the booking.
+                  <img src="{{asset('frontend/img/t3.jpg')}}" alt="" srcset="">
                </span>
             </div>
             <div class="counter-item pd-cus">
@@ -75,8 +74,7 @@
                <span><i aria-hidden="true" class="fas fa-bus-alt"></i></span>
                </span>
                <span class="counter-desc">
-                  SERVICE COMMITMENT
-                  Always aim for the optimal value that customers want to receive
+                  <img src="{{asset('frontend/img/t4.jpg')}}" alt="" srcset="">
                </span>
             </div>
          </div>
