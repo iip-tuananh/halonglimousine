@@ -50,7 +50,7 @@
                <span ><i class="far fa-clock"></i></span>
                </span>
                <span class="counter-desc">
-                 <img src="{{asset('frontend/img/t1.jpg')}}" alt="" srcset="">
+                  Always ready to advise and answer customers' questions 24/7
                </span>
             </div>
             <div class="counter-item">
