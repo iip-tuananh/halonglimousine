@@ -153,8 +153,9 @@ align-items: center;
 }
 @media only screen and (max-width: 768px){
   .tuanhe{
-    transform: translateY(10px);
+    transform: translateY(0px);
     display: block;
+    font-size: 11px;
   }
 }
 .ngonngu{
