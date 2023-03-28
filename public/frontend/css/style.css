@@ -1938,7 +1938,7 @@ input[type=submit]:focus {
 @media screen and (max-width: 575px) {
   .site-logo img {
     max-width: 100px;
-    height: 100%;
+    /* height: 100%; */
   }
 }
 
