@@ -47,7 +47,7 @@
          <div class="counter-wrap">
             <div class="counter-item">
                <span >
-               <span ><i class="far fa-clock"></i></span>
+        
                </span>
                <span class="counter-desc">
                  <img src="{{asset('frontend/img/t1.jpg')}}" alt="" srcset="">
@@ -55,7 +55,7 @@
             </div>
             <div class="counter-item">
                <span >
-               <span ><i aria-hidden="true" class="far fa-money-bill-alt"></i></span>
+            
                </span>
                <span class="counter-desc">
                   <img src="{{asset('frontend/img/t2.jpg')}}" alt="" srcset="">
@@ -63,7 +63,7 @@
             </div>
             <div class="counter-item pd-cus">
                <span >
-               <span ><i aria-hidden="true" class="far fa-handshake"></i></i></span>
+           
                </span>
                <span class="counter-desc">
                   <img src="{{asset('frontend/img/t3.jpg')}}" alt="" srcset="">
@@ -71,7 +71,7 @@
             </div>
             <div class="counter-item pd-cus">
                <span >
-               <span><i aria-hidden="true" class="fas fa-bus-alt"></i></span>
+          
                </span>
                <span class="counter-desc">
                   <img src="{{asset('frontend/img/t4.jpg')}}" alt="" srcset="">
