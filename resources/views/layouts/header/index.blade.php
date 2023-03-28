@@ -34,7 +34,7 @@
                              <img src="{{asset('frontend/img/flag-en.png')}}" alt="" loading="lazy">
                           </div>
                           <div>
-                             <span style="color: white" class="ngonngu">Tiếng Việt</span>
+                             <span style="color: white" class="ngonngu">VN</span>
                           </div>
                        </a>
                        <a href="javascript:;" class="flag_link text-center" rel="" title="Tiếng Anh" data-lang="en">
@@ -42,7 +42,7 @@
                              <img src="{{asset('frontend/img/flag-en (1).png')}}" alt="" loading="lazy">
                           </div>
                           <div>
-                             <span style="color: white" class="ngonngu">Tiếng Anh</span>
+                             <span style="color: white" class="ngonngu">EN</span>
                           </div>
                        </a>
                     </div>
@@ -62,7 +62,7 @@
                            </a>
                        </li>
                        <li>
-                           <a href="javascript:;" target="_blank">
+                           <a href="{{$setting->google}}" target="_blank">
                            <i class="fab fa-youtube" aria-hidden="true"></i>
                            </a>
                        </li>
