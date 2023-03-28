@@ -208,21 +208,21 @@
                   <div class="col-lg-6 col-md-6">
                      <div class="section-head">
                         <div class="sub-title">QUESTIONS / ANSWERS</div>
-                        <h2 class="section-title">How can I pay for my booking ?</h2>
-                        <p>You can pay through the Paypal or come to our office for paying in VND or USD</p>
+                        <h2 class="section-title">FREQUENTLY ASKED QUESTIONS</h2>
+                        <p>Aperiam sociosqu urna praesent, tristique, corrupti condimentum asperiores platea ipsum ad arcu. Nostrud. Esse? Aut nostrum, ornare quas provident laoreet nesciunt odio voluptates etiam, omnis.</p>
                      </div>
                      <div id="accordion-tab-one" class="accordion-content" role="tablist">
                         <div id="accordion-A" class="card tab-pane  " role="tabpanel" aria-labelledby="accordion-A">
                            <div class="card-header" role="tab" id="qus-A">
                               <h5 class="mb-0">
                                  <a data-bs-toggle="collapse" href="#collapse-one" aria-expanded="false" aria-controls="collapse-one">
-                                    What are acceptable payment method ?
+                                 HOW CAN I PAY FOR MY BOOKING?
                                  </a>
                               </h5>
                            </div>
                            <div id="collapse-one" class="collapse " data-bs-parent="#accordion-tab-one" role="tabpanel" aria-labelledby="qus-A">
                               <div class="card-body">
-                                 Paypal or Cash in VND/USD
+                                 You can pay through the Paypal or come to our office for paying in VND or USD
                               </div>
                            </div>
                         </div>
@@ -230,31 +230,31 @@
                            <div class="card-header" role="tab" id="qus-B">
                               <h5 class="mb-0">
                                  <a class="collapsed" data-bs-toggle="collapse" href="#collapse-two" aria-expanded="false" aria-controls="collapse-two">
-                                    How is the booking ticket procedure ?
+                                 WHAT ARE ACCEPTABLE PAYMENT METHOD?
                                  </a>
                               </h5>
                            </div>
                            <div id="collapse-two" class="collapse" data-bs-parent="#accordion-tab-one" role="tabpanel" aria-labelledby="qus-B">
                               <div class="card-body">
-                                 1. Click “Book Now” to leave your information, we will contact accordingly. 
-                                 2. Make a phone call to our whatsapp and follow the guidline to complete the booking.
+                                 Paypal or Cash in VND/USD
                               </div>
                            </div>
                         </div>
-                        {{-- <div id="accordion-C" class="card tab-pane" role="tabpanel" aria-labelledby="accordion-C">
+                        <div id="accordion-C" class="card tab-pane" role="tabpanel" aria-labelledby="accordion-C">
                            <div class="card-header" role="tab" id="qus-C">
                               <h5 class="mb-0">
                                  <a class="collapsed" data-bs-toggle="collapse" href="#collapse-three" aria-expanded="true" aria-controls="collapse-three">
-                                 How we provide services for you ?
+                                 HOW IS THE BOOKING TICKET PROCEDURE ? 
                                  </a>
                               </h5>
                            </div>
                            <div id="collapse-three" class="collapse" data-bs-parent="#accordion-tab-one" role="tabpanel" aria-labelledby="qus-C">
                               <div class="card-body">
-                                 Natoque consequat sodales autem nihil nec. Fusce molestias? Reiciendis voluptas, harum officia ante aliquet blanditiis scelerisque donec illo aperiam commodi hymenaeos.
+                                 1. Click “Book Now” to leave your information, we will contact accordingly. <br>
+                                 2. Make a phone call to our whatsapp and follow the guidline to complete the booking.
                               </div>
                            </div>
-                        </div> --}}
+                        </div>
                      </div>
                   </div>
                   <div class="col-lg-6 col-md-6">
