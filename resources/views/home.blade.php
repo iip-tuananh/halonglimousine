@@ -57,7 +57,7 @@
                <span >
             
                </span>
-               <span class="counter-desc">
+               <span class="counter-desc" style="transform: translateY(-12px);">
                   <img src="{{asset('frontend/img/t2.jpg')}}" alt="" srcset="">
                </span>
             </div>
@@ -69,7 +69,7 @@
                   <img src="{{asset('frontend/img/t3.jpg')}}" alt="" srcset="">
                </span>
             </div>
-            <div class="counter-item ">
+            <div class="counter-item " style="transform: translateY(-12px);">
                <span >
           
                </span>
