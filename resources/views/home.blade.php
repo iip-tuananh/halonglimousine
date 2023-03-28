@@ -61,7 +61,7 @@
                   <img src="{{asset('frontend/img/t2.jpg')}}" alt="" srcset="">
                </span>
             </div>
-            <div class="counter-item pd-cus">
+            <div class="counter-item">
                <span >
            
                </span>
@@ -69,7 +69,7 @@
                   <img src="{{asset('frontend/img/t3.jpg')}}" alt="" srcset="">
                </span>
             </div>
-            <div class="counter-item pd-cus">
+            <div class="counter-item ">
                <span >
           
                </span>
