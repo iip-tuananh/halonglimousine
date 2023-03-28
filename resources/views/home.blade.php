@@ -15,7 +15,7 @@
 <script src="{{asset('frontend/js/checkvalue.js')}}"></script>
 @endsection
 @section('content')
-<main id="content" class="site-main">
+<main id="content" class="site-main" style="background-color: #042842">
    <!-- ***home banner html start form here*** -->
    <section class="home-banner-section home-banner-slider">
       @foreach ($banner as $item)
@@ -50,7 +50,7 @@
                <span ><i class="far fa-clock"></i></span>
                </span>
                <span class="counter-desc">
-                  Always ready to advise and answer customers' questions 24/7
+                 <img src="{{asset('frontend/img/t1.jpg')}}" alt="" srcset="">
                </span>
             </div>
             <div class="counter-item">
